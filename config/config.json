@@ -1,0 +1,20 @@
+{
+    "development": {
+        "username": "root",
+        "password": "root",
+        "database": "jspowerup_development",
+        "host": "127.0.0.1"
+    },
+    "test": {
+        "username": "jspowerup",
+        "password": "mypassword",
+        "database": "jspowerup_test",
+        "host": "127.0.0.1"
+    },
+    "production": {
+        "username": "jspowerup",
+        "password": "mypassword",
+        "database": "jspowerup_powerup",
+        "host": "127.0.0.1"
+    }
+}
