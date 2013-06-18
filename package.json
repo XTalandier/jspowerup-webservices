@@ -1,0 +1,24 @@
+{
+    "name": "jspowerup-webservices"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express"        : "3.2.0"
+    , "connect-assets" : "2.1.5"
+    , "hogan-express"  : "*"
+    , "mysql"          : "*"
+    , "sequelize"      : "1.6.0"
+    , "underscore"     : ""
+    , "winston"        : ""
+  },
+  "devDependencies" : {
+      "mocha"       : "*"
+    , "should"      : "*"
+    , "sinon"       : "*"
+    , "zombie"      : "*"
+    , "supertest"   : "*"
+  },
+  "scripts": {
+    "test":"mocha"
+  }
+}
